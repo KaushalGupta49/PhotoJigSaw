@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="./dist/touch.js"></script>
+
+    <script src="./dist/index.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body class="bg-blue-500">
+    <div class="text-center">
+      <img id="solImg" class="mx-auto" width="400px" />
+      <button
+        class="m-6 rounded bg-blue-700 p-2 px-4 text-lg text-white"
+        onclick="generatePuzzle()">
+        Generate Puzzle
+      </button>
+
+      <div class="mt-10 text-2xl text-white">
+        Total Moves:
+        <span id="counter">0</span>
+      </div>
+
+      <ul
+        id="sortable"
+        class="mx-auto mb-10 mt-10 grid w-[70%] max-w-[720px] grid-cols-3 border-4 border-blue-600"></ul>
+    </div>
+  </body>
+</html>
