@@ -1,20 +1,14 @@
 {
   "name": "photojigsaw",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "JigSaw Game with 3 difficulty level",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tailwindcheck": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "createCSS": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "author": "",
+  "author": "Kaushal Gupta",
   "license": "ISC",
   "devDependencies": {
     "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.3.5"
-  },
-  "dependencies": {
-    "jquery": "^3.7.1",
-    "jquery-ui": "^1.13.2"
   }
 }
